@@ -1,0 +1,38 @@
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Лог-файлы
+*.log
+
+# Статические файлы
+/static/
+media/
+
+# Папка виртуального окружения
+venv/
+env/
+
+# Docker
+*.db
+*.pid
+docker-compose.override.yml
+
+# Django
+*.pyc
+*.pyo
+__pycache__
+db.sqlite3
+
+# Миграции Django
+migrations/
+
+# pyenv
+.python-version
+
+# IDEs
+.vscode/
+.idea/
+
+# Конфиденциальные данные
+.env
