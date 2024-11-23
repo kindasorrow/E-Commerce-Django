@@ -6,8 +6,8 @@ Thumbs.db
 *.log
 
 # Статические файлы
-/static/
-media/
+src/static/
+src/media/
 
 # Папка виртуального окружения
 venv/
@@ -19,13 +19,13 @@ env/
 docker-compose.override.yml
 
 # Django
-*.pyc
-*.pyo
-__pycache__
-db.sqlite3
+src/**/*.pyc
+src/**/*.pyo
+src/**/__pycache__/
+src/db.sqlite3
 
 # Миграции Django
-migrations/
+src/**/migrations/
 
 # pyenv
 .python-version
